@@ -1,0 +1,195 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+.navbar-brand {
+    font-size: 2rem;
+    color: black;
+    font-family: "Lobster", sans-serif;
+}
+
+.nav-link {
+    color: black;
+    margin-right: 10px;
+    margin-left: 10px;
+    text-transform: uppercase;
+    font-family: "Rubik", sans-serif;
+}
+
+.nav-link:hover {
+    color: black;
+}
+
+.search {
+    height: 40px;
+    width: 80%;
+    border-radius: 60px;
+    outline: none;
+    border: 2px solid rgb(248, 110, 110);
+    margin-right: -35px;
+    font-family: "Rubik", sans-serif;
+}
+
+.btnser {
+    height: 40px;
+    width: 40%;
+    color: white;
+    background: rgb(248, 110, 110);
+    border-radius: 60px;
+    outline: none;
+    border: none;
+    font-weight: 700;
+    font-family: "Rubik", sans-serif;
+}
+
+.main {
+    background-image: url('./images/pexels-janetrangdoan-1132047.jpg');
+    background-size: cover;
+    height: 92vh;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+
+.main h1 {
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.btn02 {
+    height: 45px;
+    width: 35%;
+    background: rgb(248, 110, 110);
+    border-radius: 60px;
+    outline: none;
+    border: none;
+    font-weight: 800;
+    color: white;
+    font-family: "Rubik", sans-serif;
+}
+
+.new .img-fluid {
+    width: 100%;
+    /* This ensures the images scale based on the column size */
+    height: 300px;
+    /* Set a consistent height for all images */
+    object-fit: fill;
+    /* Ensures the images are cropped proportionally to fill the area without stretching */
+}
+
+.about .img-fluid {
+    width: 100%;
+    /* This ensures the images scale based on the column size */
+    height: 300px;
+    /* Set a consistent height for all images */
+    object-fit: fill;
+    /* Ensures the images are cropped proportionally to fill the area without stretching */
+}
+
+
+
+.btn02:hover {
+    background-color: rgb(242, 40, 40);
+    transition: 0.5s;
+}
+
+.card:hover {
+    box-shadow: -4px 3px 24px -1px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: -4px 3px 24px -1px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -4px 3px 24px -1px rgba(0, 0, 0, 0.75);
+    transition: 0.5s;
+}
+
+.banner {
+    background-image: url('./images/d55b6a3a36b2926943232bf9ab964781.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 70vh; 
+}
+
+
+.hero {
+    font-size: 4rem;
+    color: black;
+    font-family: "Lobster", sans-serif;
+}
+
+.hero2 {
+    font-size: 2rem;
+    color: black;
+    font-family: "Rubik", sans-serif;
+}
+
+.btn03 {
+    height: 45px;
+    width: 20%;
+    background: rgb(248, 110, 110);
+    border-radius: 60px;
+    outline: none;
+    border: none;
+    font-weight: 800;
+    color: white;
+    font-family: "Rubik", sans-serif;
+}
+
+.btn03:hover {
+    background-color: rgb(242, 40, 40);
+    transition: 0.5s;
+}
+
+.contactus input:focus,
+.contactus textarea:focus {
+    outline: 2px solid rgb(248, 110, 110);
+    box-shadow: 0 0 5px rgb(248, 110, 110);
+}
+
+.footer {
+    background-color: black;
+    color: white;
+}
+
+.btn2 {
+    height: 32px;
+    width: 100px;
+    font-weight: bold;
+    background-color: white;
+    border: 2px solid white;
+    margin-left: -10px;
+}
+
+.footer input {
+    background-color: black;
+    outline: none;
+    color: white;
+    border: 2px solid white;
+    height: 32px;
+    width: 55%;
+    font-weight: 600;
+}
+
+.footer::placeholder {
+    color: white !important;
+}
+
+.footercont p {
+    margin: 0px;
+}
+
+.bi {
+    font-size: 2.5rem;
+    cursor: pointer;
+    padding-left: 5px;
+}
+
+.textright {
+    text-align: right;
+}
